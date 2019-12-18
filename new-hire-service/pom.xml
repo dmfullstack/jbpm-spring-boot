@@ -15,7 +15,7 @@
     </parent>
 
     <properties>
-        <version.org.kie>7.23.0.Final-redhat-00003</version.org.kie>
+        <version.org.kie>7.23.0.Final</version.org.kie>
         <narayana.version>5.9.0.Final</narayana.version>
         <fabric8.version>3.5.40</fabric8.version>
         <fabric8-maven-plugin.version>3.5.38</fabric8-maven-plugin.version>

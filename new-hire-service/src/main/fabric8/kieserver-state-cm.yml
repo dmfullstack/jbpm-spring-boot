@@ -3,18 +3,18 @@ data:
   new-hire-service.xml: |-
     <kie-server-state>
       <controllers>
-        <string>http://pam-rhpamcentr:8080/rest/controller</string>
+        <string>http://localhost:8080/business-central/rest/controller</string>
       </controllers>
       <configuration>
         <configItems>
           <config-item>
             <name>org.kie.server.controller.user</name>
-            <value>controllerUser</value>
+            <value>wbadmin</value>
             <type>java.lang.String</type>
           </config-item>
           <config-item>
             <name>org.kie.server.controller.pwd</name>
-            <value>controllerUser</value>
+            <value>wbadmin</value>
             <type>java.lang.String</type>
           </config-item>
           <config-item>
@@ -29,7 +29,7 @@ data:
           </config-item>
           <config-item>
             <name>org.kie.server.controller</name>
-            <value>http://pam-rhpamcentr:8080/rest/controller</value>
+            <string>http://localhost:8080/business-central/rest/controller</string>
             <type>java.lang.String</type>
           </config-item>
           <config-item>
